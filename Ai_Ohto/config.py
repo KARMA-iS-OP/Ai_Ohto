@@ -28,7 +28,7 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgresql://ai-ohto-usr:aNRamnDXtKWa@localhost:5432/ai-ohto-db"  # needed for any database modules # its "URI" and not "URL" as herok and similar ones only accept it as such
+    SQLALCHEMY_DATABASE_URI = "postgresql://aiohtousr:BFe5RjGHa4kc@localhost:5432/aiohtodb"  # needed for any database modules # its "URI" and not "URL" as herok and similar ones only accept it as such
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
