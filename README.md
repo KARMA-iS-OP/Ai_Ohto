@@ -36,4 +36,4 @@ pip3 install -r requirements.txt
 
 clear
 
-python3.8 -m Ai_Ohto
+python3 -m Ai_Ohto
