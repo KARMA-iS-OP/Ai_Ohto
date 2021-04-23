@@ -241,7 +241,7 @@ def start(update: Update, context: CallbackContext):
                             ),
                             InlineKeyboardButton(
                                 text="🗄 Source code",
-                                url="https://github.com/AnimeKaizoku/Ai_Ohto",
+                                url="https://github.com/KARMA-iS-OP/Ai_Ohto",
                             ),
                         ],
                         [
