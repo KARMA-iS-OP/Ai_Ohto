@@ -1,6 +1,6 @@
 # Ai_Ohto
 
-Credits - [DEVLOPER](https://telegram.me/Net_SHELL) - [FOUNDER](http://t.me/Gojo_bhaiya)
+Credits - [DEVLOPER](https://telegram.me/Net_SHELL) - [FOUNDER](http://t.me/Gojo_bhaiya) - [Original Developer](https://github.com/AnimeKaizoku/SaitamaRobot)
 
 ![Ai_Ohto](https://telegra.ph/file/b156c81445b734aad9315.png)
 
