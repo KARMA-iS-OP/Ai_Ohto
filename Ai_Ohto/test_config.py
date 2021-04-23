@@ -14,21 +14,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 5378978  # integer value, dont use ""
-    API_HASH = "056a477ec9a5ac6dbeec2e8bbabfe28a"
-    TOKEN = "1701683419:AAE4JeXvXYQE7eNZatNuJolkM2-1C5KD1K4"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1758674670  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Gojo_bhaiya"
-    SUPPORT_CHAT = "Ai_Ohto_Support"  # Your own group for support, do not add the @
+    API_ID = 123456  # integer value, dont use ""
+    API_HASH = "tg api"
+    TOKEN = "bot token"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 12345678  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "owner usename"
+    SUPPORT_CHAT = "support group"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001217403406
+        -1001404682571
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
         -1001404682571
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgresql://aiohtousr:BFe5RjGHa4kc@localhost:5432/aiohtodb"  # needed for any database modules # its "URI" and not "URL" as herok and similar ones only accept it as such
+    SQLALCHEMY_DATABASE_URI = "postgresql://db_usr:db_pass@db_host:db_port/db_name"  # needed for any database modules # its "URI" and not "URL" as herok and similar ones only accept it as such
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
@@ -56,7 +56,6 @@ class Config(object):
         8  # Number of subthreads to use. Set as number of threads your processor uses
     )
     BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
-    ALLOW_CHATS = True
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = (
         "awoo"  # Get your API key from https://www.alphavantage.co/support/#api-key
