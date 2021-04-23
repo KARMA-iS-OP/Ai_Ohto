@@ -28,8 +28,8 @@ and Fill the all details to Correct information
 
 run this Command
 
-#1 git clone https://github.com/KARMA-iS-OP/Ai_Ohto.git
-#2 cd Ai_Ohto
-#3 pip3 install -r requirements.txt
-#4 clear
-#5 python3.8 -m Ai_Ohto
+ git clone https://github.com/KARMA-iS-OP/Ai_Ohto.git
+ cd Ai_Ohto
+ pip3 install -r requirements.txt
+ clear
+ python3.8 -m Ai_Ohto
