@@ -247,7 +247,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="GBot Network",
-                                url="https://t.me/GBot_Network",
+                                url="https://t.me/GBot_Network"
                             ),
                         ],
                     ],
